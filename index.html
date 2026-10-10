@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>Orb Gesture Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="scene"></canvas>
+  <canvas id="trail" aria-hidden="true"></canvas>
+  <div id="welcome" class="overlay">
+    <section class="panel">
+      <h1>Welcome</h1>
+      <p>Try to Tiktachef.</p>
+      <button id="start">Hel camera &amp; enter</button>
+      <p id="error"></p>
+    </section>
+  </div>
+  <video id="camera" autoplay playsinline muted></video>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
